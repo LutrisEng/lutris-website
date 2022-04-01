@@ -1,3 +1,7 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
 <header>
 	<h1>Lutris, Inc</h1>
 	<p>Lutris builds automotive tools and products for businesses and consumers alike.</p>
