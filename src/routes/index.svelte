@@ -10,7 +10,10 @@
 	<h2>Current Products</h2>
 	<section id="fleetbox">
 		<h3>Fleetbox (coming soon)</h3>
-		<img src="/fleetboxscreenshot.jpeg" alt="A screenshot showing a vehicle in the Fleetbox app" />
+		<img
+			src="%svelte.assets%/fleetboxscreenshot.jpeg"
+			alt="A screenshot showing a vehicle in the Fleetbox app"
+		/>
 		<p>
 			Fleetbox is an iOS, iPadOS, and macOS application that helps you track your vehicle's
 			maintenance history, and make sure you stay on top of its maintenance requirements.
