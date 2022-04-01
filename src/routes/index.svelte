@@ -2,10 +2,6 @@
 	export const prerender = true;
 </script>
 
-<script lang="ts">
-	import fleetboxscreenshot from '$lib/assets/fleetboxscreenshot.jpeg';
-</script>
-
 <header>
 	<h1>Lutris, Inc</h1>
 	<p>Lutris builds automotive tools and products for businesses and consumers alike.</p>
@@ -14,7 +10,15 @@
 	<h2>Current Products</h2>
 	<section id="fleetbox">
 		<h3>Fleetbox (coming soon)</h3>
-		<img src={fleetboxscreenshot} alt="A screenshot showing a vehicle in the Fleetbox app" />
+		<iframe
+			width="560"
+			height="315"
+			src="https://www.youtube.com/embed/9-wj8eMUEn0"
+			title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen
+		/>
 		<p>
 			Fleetbox is an iOS, iPadOS, and macOS application that helps you track your vehicle's
 			maintenance history, and make sure you stay on top of its maintenance requirements.
@@ -43,9 +47,3 @@
 	</p>
 	<p>Get in touch at <a href="mailto:contact@lutris.engineering">contact@lutris.engineering</a>!</p>
 </footer>
-
-<style>
-	img {
-		max-width: 25vw;
-	}
-</style>
