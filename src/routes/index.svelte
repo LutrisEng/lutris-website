@@ -2,6 +2,10 @@
 	export const prerender = true;
 </script>
 
+<script lang="ts">
+	import fleetboxscreenshot from '$lib/assets/fleetboxscreenshot.jpeg';
+</script>
+
 <header>
 	<h1>Lutris, Inc</h1>
 	<p>Lutris builds automotive tools and products for businesses and consumers alike.</p>
@@ -10,7 +14,7 @@
 	<h2>Current Products</h2>
 	<section id="fleetbox">
 		<h3>Fleetbox (coming soon)</h3>
-		<img src="/fleetboxscreenshot.jpeg" alt="A screenshot showing a vehicle in the Fleetbox app" />
+		<img src={fleetboxscreenshot} alt="A screenshot showing a vehicle in the Fleetbox app" />
 		<p>
 			Fleetbox is an iOS, iPadOS, and macOS application that helps you track your vehicle's
 			maintenance history, and make sure you stay on top of its maintenance requirements.
