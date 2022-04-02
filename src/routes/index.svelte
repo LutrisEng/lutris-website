@@ -9,7 +9,7 @@
 <section id="currentproducts">
 	<h2>Current Products</h2>
 	<section id="fleetbox">
-		<h3>Fleetbox (coming soon)</h3>
+		<h3><a href="https://fleetbox.io">Fleetbox</a> (coming soon)</h3>
 		<iframe
 			width="560"
 			height="315"
